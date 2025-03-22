@@ -1,0 +1,1 @@
+This project is a collection of Dart programs designed to explore various concepts, algorithms, and libraries within the Dart programming language. It's a way for me to dive deeper into Dart and improve my skills.
