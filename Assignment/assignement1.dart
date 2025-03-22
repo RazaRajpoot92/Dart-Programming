@@ -11,43 +11,41 @@ void main() {
 
   // Question2, perform arithmetic operations
 
-  // print("Pleae Enter your First Number: ");
-  // int number1 = int.parse(stdin.readLineSync()!);
-  // print("Please Enter your Second Number: ");
-  // int number2 = int.parse(stdin.readLineSync()!);
-  // print("Sum: ${number1 + number2}");
-  // print("Substraction: ${number1 - number2}");
-  // print("Division: ${number1 / number2}");
-  // print("Multiplication: ${number1 * number2}");
-  // print("Modulus: ${number1 % number2}");
+  print("Pleae Enter your First Number: ");
+  int number1 = int.parse(stdin.readLineSync()!);
+  print("Please Enter your Second Number: ");
+  int number2 = int.parse(stdin.readLineSync()!);
+  print("Sum: ${number1 + number2}");
+  print("Substraction: ${number1 - number2}");
+  print("Division: ${number1 / number2}");
+  print("Multiplication: ${number1 * number2}");
+  print("Modulus: ${number1 % number2}");
 
   // Question3, campare the two numbers
-/*
-  print("Please Enter your First number: ");
-  int number1 = int.parse(stdin.readLineSync()!);
-  print("Please Enter your 2nd number: ");
-  int number2 = int.parse(stdin.readLineSync()!);
 
-  if (number1 > number2) {
-    print("Number1 is greater: $number1");
-  } else if (number1 < number2) {
-    print("Number1 is lesser: $number1");
-  } else if (number1 == number2) {
-    print("Number1 is equal to Number2: $number1");
-  } else {
-    print("Something went wrong.");
-  }*/
+  // print("Please Enter your First number: ");
+  // int number1 = int.parse(stdin.readLineSync()!);
+  // print("Please Enter your 2nd number: ");
+  // int number2 = int.parse(stdin.readLineSync()!);
+  // if (number1 > number2) {
+  //   print("Number1 is greater: $number1");
+  // } else if (number1 < number2) {
+  //   print("Number1 is lesser: $number1");
+  // } else if (number1 == number2) {
+  //   print("Number1 is equal to Number2: $number1");
+  // } else {
+  //   print("Something went wrong.");
+  // }
 
   //Question4, add element of list.
-/*
-  List<int> numbers = [1, 2, 3, 4];
-  numbers.add(5);
-  int sum = 0;
-  for (int number in numbers) {
-    sum += number;
-  }
-  print(sum);
-  */
+
+  // List<int> numbers = [1, 2, 3, 4];
+  // numbers.add(5);
+  // int sum = 0;
+  // for (int number in numbers) {
+  //   sum += number;
+  // }
+  // print(sum);
 
   // Question5, list of strings
 
@@ -74,17 +72,17 @@ void main() {
 
   //Question7 - Update the Map
 
-//   Map<String, int> students = {
-//     "Raza": 20,
-//     "Aslam": 22,
-//   };
-//   print("Student Map before updating: $students");
-//   students["Raza"] = 50;
-//   print("After upating: $students");
-//   print("");
-//   print("Student map before removing: $students");
-//   students.remove("Raza");
-//   print("Student map after removing: $students");
+  // Map<String, int> students = {
+  //   "Raza": 20,
+  //   "Aslam": 22,
+  // };
+  // print("Student Map before updating: $students");
+  // students["Raza"] = 50;
+  // print("After upating: $students");
+  // print("");
+  // print("Student map before removing: $students");
+  // students.remove("Raza");
+  // print("Student map after removing: $students");
 
   List<Map> students = [
     {"Name": "Raza", "Score": 90},
